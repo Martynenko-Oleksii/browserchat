@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
+var a42 = 42;
+
 var builder = WebApplication.CreateBuilder(args);
 bool isProduction = builder.Environment.IsProduction();
 ConfigurationHelper.Initialize(builder.Configuration);
